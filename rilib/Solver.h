@@ -97,7 +97,7 @@ public:
 		for(ii=0; ii<nof_sn; ii++){
 			solution[ii] = -1;
 		}
-		std:set<int>* cmatched = new std::set<int>[nof_sn];
+		std::set<int>* cmatched = new std::set<int>[nof_sn];
 
 		bool* matched = (bool*) calloc(rgraph.nof_nodes, sizeof(bool));		//indexed by node_id
 
