@@ -11,7 +11,7 @@ inline int read_int(std::istream & in) {
   return a;
 }
 
-inline void read_ldgraphs(std::istream & in, rilib::Graph * graph) {
+inline void read_ldgraphs_unl(std::istream & in, rilib::Graph * graph) {
   int i=0, j=0;
 
   graph->nof_nodes = read_int(in);
